@@ -5,4 +5,4 @@ Barton, Sinead J., Tomas E. Ward, and Bryan M. Hennelly. "Algorithm for optimal 
 
 The bottleneck is rewritten in Numba which gave about 88x speedup (should be comparable with original implementation).
 
-**Warning**: since this code was translated, it looks painfully non-pythonic. *Freakin' MATLAB!*
+**Warning**: since this code was translated, it looks painfully non-pythonic. Freakin' MATLAB!
