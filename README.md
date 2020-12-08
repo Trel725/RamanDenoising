@@ -19,6 +19,6 @@ peaks = find_peaks(x, prominence=20, distance=10)[0]
 filtered = MLESG(x, wvn, peaks)
 plt.plot(wvn, filtered)
 
-# if you have example of noise, you can slightly improve filtering
+# if you have example of device-specific noise, you can slightly improve filtering
 # by providing the noise to the function as MLESG(x, wvn, peaks, mu=noise)
 ```
